@@ -9,18 +9,18 @@ const CONFIG = {
 
   // ─── Personal Info ───────────────────────────────────────────
   name: "Avik Chatterjee",
-  title: "Analytics Professional & AI Engineer",
-  tagline: "Leveraging 5+ years of analytics expertise to build intelligent automation and data-driven systems.",
-  roles: ["Analytics Professional", "AI/ML Engineer", "Project Coordinator", "Automation Expert"],
+  title: "Analytics & Automation Lead | ",
+  tagline: "Bridging large-scale analytics with intelligent AI automation. Specialize in architecting high-impact risk & business engineering solutions.",
+  roles: ["Analytics Specialist @ Amazon", "AI/ML Engineer", "Automation Architect"],
 
   about: {
     description: [
-      "I am an analytics-focused professional currently at Amazon, with over 5 years of experience in supporting global operations and driving data-driven initiatives. My expertise lies at the intersection of process optimization and emerging technologies.",
-      "Beyond my core role in analytics and project coordination, I am deeply passionate about AI Engineering. I specialize in building intelligent workflow automation (n8n), AI-powered reverse-engineering tools, and robust data validation systems.",
-      "I thrive on solving complex operational challenges by bridging the gap between business requirements and technical implementation. My goal is to leverage data and AI to create measurable organizational impact."
+      "I am a high-impact Analytics and Automation specialist with over 5 years of experience at Amazon, where I spearheaded critical Risk & Business intelligence initiatives. I specialize in architecting production-grade automation workflows and deep data modeling to drive measurable business outcomes.",
+      "Beyond analytics, I am a 4x Alteryx Certified professional and a Google Certified Data Analyst, constantly pushing the boundaries of what is possible with technical orchestration.",
+      "My mission is to build intelligent systems that solve complex operational challenges. From architecting immutable validation engines for top-tier institutions to reverse-engineering sophisticated AI architectures, I focus on scale, impact, and technical depth."
     ],
     resumeUrl: "docs/resume.pdf",
-    avatarUrl: ""
+    avatarUrl: "assets/images/avik11.PNG"
   },
 
   // ─── Social Links ───────────────────────────────────────────
@@ -28,27 +28,35 @@ const CONFIG = {
     github: "https://github.com/Avichatt",
     linkedin: "https://www.linkedin.com/in/avik-chatterjee-00a364145/",
     twitter: "https://twitter.com/avichatt",
-    email: "avik.chatterjee@example.com" // Placeholder email based on profile
+    email: "hello@avichatt.dev"
   },
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "Data Analytics (SQL/Python)", level: 95, icon: "📊" },
-    { name: "AI Engineering & LLMs",       level: 88, icon: "🤖" },
-    { name: "Workflow Automation (n8n)",   level: 92, icon: "⚙️" },
-    { name: "Project Management",          level: 90, icon: "📅" },
-    { name: "Power BI / Tableau",         level: 85, icon: "📈" },
-    { name: "JavaScript / Web Dev",       level: 85, icon: "🌐" },
-    { name: "Stakeholder Relations",      level: 93, icon: "🤝" },
-    { name: "Process Optimization",       level: 90, icon: "🚀" }
+    { name: "Scale Analytics (SQL/Python)", level: 98, icon: "📊" },
+    { name: "Alteryx (4x Certified/Adv)", level: 95, icon: "📐" },
+    { name: "Intelligent Automation (n8n)", level: 94, icon: "⚙️" },
+    { name: "AI/ML Systems Design", level: 90, icon: "🤖" },
+    { name: "LangChain / LangGraph", level: 95, icon: "🦜" },
+    { name: "Python / AI-ML Stack", level: 95, icon: "🐍" },
+    { name: "Multi-Agent Systems", level: 92, icon: "🤝" },
+    { name: "PyTorch / TensorFlow", level: 90, icon: "🔥" },
+    { name: "RAG / Elasticsearch", level: 90, icon: "📚" },
+    { name: "MCP Servers / Automation", level: 88, icon: "⚙️" },
+    { name: "Docker / Kubernetes / Azure", level: 85, icon: "🐳" },
+    { name: "Power BI / Strategic Viz", level: 92, icon: "📈" },
+    { name: "Node.js / Systems Architecture", level: 88, icon: "🟢" },
+    { name: "Risk & Compliance Strategy", level: 95, icon: "🛡️" },
+    { name: "Project Management (Global)", level: 93, icon: "🌎" }
   ],
+
 
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
       title: "AdmitGuard",
-      description: "An admission data validation and compliance system designed to ensure data integrity and regulatory adherence across educational workflows.",
-      tech: ["JavaScript", "Data Validation", "Compliance"],
+      description: "A production-grade verification engine built for premier institutions (IITs/IIMs). Ensures 100% compliance with complex eligibility criteria through a triple-layered decoupled architecture and immutable audit trails.",
+      tech: ["Vite", "Node.js", "Express", "SQLite", "Validator.js"],
       liveUrl: "#",
       githubUrl: "https://github.com/Avichatt/admitguard--Avik_Chatterjee-",
       image: "",
@@ -56,9 +64,9 @@ const CONFIG = {
       category: "web"
     },
     {
-      title: "Product Teardown Engine",
-      description: "An AI-powered reverse-engineering tool that analyzes products to extract technical specifications and architectural insights automatically.",
-      tech: ["AI", "Reverse Engineering", "NLP", "Python"],
+      title: "AI Product Teardown Engine",
+      description: "A sophisticated technical benchmarking framework used to analyze top-tier AI products (e.g., Perplexity AI) across 6 layers: Data, ML, LLM, Infrastructure, and System Design.",
+      tech: ["Claude LLM", "System Design", "Technical Reasoning"],
       liveUrl: "#",
       githubUrl: "https://github.com/Avichatt/week-01-day-05-teardown-engine",
       image: "",
@@ -66,9 +74,9 @@ const CONFIG = {
       category: "ai"
     },
     {
-      title: "AI-Powered n8n Workflows",
-      description: "Custom fair-code automation workflows integrating native AI capabilities for seamless multi-agent orchestration and tool communication.",
-      tech: ["n8n", "AI Agents", "Automation", "TypeScript"],
+      title: "Intelligent n8n Workflows",
+      description: "Custom-built automation pipelines for complex cross-platform business logic, integrating native AI capabilities for seamless multi-agent orchestration and process efficiency.",
+      tech: ["n8n", "TypeScript", "API Orchestration", "AI Agents"],
       liveUrl: "#",
       githubUrl: "https://github.com/Avichatt/n8n",
       image: "",
@@ -76,32 +84,38 @@ const CONFIG = {
       category: "automation"
     },
     {
-      title: "Analytics Dashboard",
-      description: "Comprehensive data visualization suite for monitoring global operations and identifying operational bottlenecks using real-time data.",
-      tech: ["Power BI", "SQL", "Excel", "Data Modeling"],
+      title: "Developer Onboarding Kit",
+      description: "Python-powered environment orchestration tool that automates complex system configurations for new developers, reducing Time to Readiness (TTR) through automated QA.",
+      tech: ["Python", "OS Scripting", "Automation"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Avichatt/New-Developer-Onboarding-Kit",
       image: "",
       featured: false,
-      category: "data"
+      category: "infrastructure"
     }
   ],
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
     {
-      role: "Analytics & Project Focused Professional",
+      role: "Analytics & Automation Lead (Risk & Business)",
       company: "Amazon",
-      period: "2019 — Present",
-      description: "Supporting global operations through data-driven initiatives and project coordination. Specialized in analytics, stakeholder management, and process efficiency.",
-      tech: ["SQL", "Excel", "Project Management", "Stakeholder Relations"]
+      period: "2019 — 2025",
+      description: "Directed global risk monitoring frameworks, reducing manual validation overhead by automating complex compliance workflows. Architected high-fidelity Power BI/Alteryx pipelines for strategic international stakeholders.",
+      tech: ["SQL", "Alteryx", "Power BI", "Python", "Risk Analysis"]
     },
     {
-      role: "B.Tech in Information Technology",
-      company: "Neotia Institute of Technology, Management and Science",
-      period: "2014 — 2018",
-      description: "Graduated with a focus on Information Technology and systems management. Involved in various technical projects and research initiatives.",
-      tech: ["Information Technology", "Computer Science", "Systems"]
+      role: "Quality Analyst (Analytics & Strategy)",
+      company: "Flipkart",
+      period: "2018 — 2019",
+      description: "Drove data-intensive initiatives within India's leading e-commerce ecosystem. Optimized supply chain and operational analytics to accelerate delivery metrics and enhance customer satisfaction.",
+      tech: ["Data Analytics", "SQL", "eCommerce", "Strategy"]
+    },
+    {
+      role: "B.Tech in Mechanical Engineering",
+      company: "Neotia Institute of Technology (ITME)",
+      description: "Foundation in mechanical systems and management. Focused on technical excellence and software engineering principles.",
+      tech: ["Cloud Technology", "Software Engineering", "Statistics"]
     }
   ],
 
@@ -118,7 +132,7 @@ const CONFIG = {
     textMuted: "#475569",
     glassBg: "rgba(255, 255, 255, 0.03)",
     glassBorder: "rgba(255, 255, 255, 0.08)",
-    borderRadius: "16px",
+    borderRadius: "20px",
     fontFamily: "'Inter', sans-serif"
   },
 
@@ -136,7 +150,7 @@ const CONFIG = {
     enableSmoothScroll: true,
     enablePreloader: true,
     enableSoundEffects: false,
-    particleCount: 60,
+    particleCount: 70,
     animationSpeed: 1
   }
 };

@@ -1,26 +1,26 @@
 # 🚀 Avik Chatterjee - Portfolio Website
+🔗 [Repository Link: -portfolio-website-using-ai](https://github.com/Avichatt/-portfolio-website-using-ai)
 
-This is a professional, high-performance portfolio website for Avik Chatterjee, built using the [Here And Now AI](https://github.com/hereandnowai) template.
+This is a professional, high-performance portfolio website for Avik Chatterjee, personalized for an elite technical profile.
 
 ## 👥 Profile: Avik Chatterjee
-- **Analytics Professional & AI Engineer** at **Amazon**.
-- 5+ years of experience in data-driven excellence and project coordination.
-- Expert in SQL, Python, JavaScript, and Workflow Automation (n8n).
+- **Analytics & Automation Lead** at **Amazon**.
+- **GATE 2026 (AIR 235)** in Computer Science & Information Technology.
+- 4x Alteryx Certified (Advanced).
+- Specialized in **AI Engineering**, **Infrastructure**, and **Operational Analytics**.
 
 ## 🛠 Tech Stack
 - **Pure HTML/CSS/JS**: Zero dependencies or complex setups.
 - **GSAP**: Smooth animations and scroll triggers.
 - **EmailJS**: Integrated contact form.
-- **Responsive Design**: Mobile-first approach.
 
-## 📂 Project Structure
-- `assets/`: Shared images and icons.
-- `components/`: Modular JavaScript components.
-- `config.js`: Central control file for all personal data.
-- `styles.css`: Custom premium styling with glassmorphism effects.
+## 📂 Project Highlights
+- **AdmitGuard**: Production-grade verification engine for IITs/IIMs.
+- **AI Product Teardown Engine**: Advanced technical benchmarking framework.
+- **Intelligent n8n Workflows**: Multi-agent automation orchestrations.
 
 ## 🚀 Customization
-All personal data is managed in `config.js`. No need to edit HTML/CSS directly.
+All personal data is managed in `config.js`.
 
 ## 📄 License
 MIT License. Template provided by [Here And Now AI](https://github.com/hereandnowai).
