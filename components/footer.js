@@ -29,11 +29,11 @@ const Footer = {
         }).join('');
     }
 
-    // Bottom copyright
+    // Bottom copyright — dynamically uses CONFIG.name and CONFIG.title
     const bottom = document.getElementById('footerBottom');
     if (bottom) {
       bottom.innerHTML = `
-        <p>© ${new Date().getFullYear()} ${CONFIG.name}. Chief AI Scientist at HERE AND NOW AI - Artificial Intelligence Research Institute</p>
+        <p>© ${new Date().getFullYear()} ${CONFIG.name} · ${CONFIG.title} · Project Repository: <a href="https://github.com/Avichatt/-portfolio-website-using-ai" target="_blank" rel="noopener" style="color:var(--primary)">-portfolio-website-using-ai</a></p>
       `;
     }
   }

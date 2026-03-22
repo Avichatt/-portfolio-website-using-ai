@@ -1,57 +1,54 @@
-/**
+﻿/**
  * ╔══════════════════════════════════════════════════════════════╗
  * ║              PORTFOLIO CONFIGURATION FILE                    ║
- * ║                                                              ║
  * ║  Edit this file to personalize your entire portfolio.        ║
- * ║  No need to touch HTML, CSS, or JS — everything is          ║
- * ║  driven from this single config.                             ║
  * ╚══════════════════════════════════════════════════════════════╝
  */
 
 const CONFIG = {
 
   // ─── Personal Info ───────────────────────────────────────────
-  name: "Ruthran Raghavan",
-  title: "Chief AI Scientist",
-  tagline: "Designing and deploying enterprise-grade AI systems that deliver measurable ROI.",
-  roles: ["Chief AI Scientist", "AI Automation Expert", "Multi-Agent Orchestrator", "Corporate Trainer"],
+  name: "Avi Sharma",
+  title: "Full Stack Developer & AI Engineer",
+  tagline: "Building intelligent, scalable web applications that merge cutting-edge AI with elegant user experiences.",
+  roles: ["Full Stack Developer", "AI/ML Engineer", "Data Scientist", "Open Source Contributor"],
 
   about: {
     description: [
-      "I'm a Chief AI Scientist with 10+ years of experience designing, developing, and deploying enterprise-grade AI systems, specializing in LLM-powered applications and multi-agent orchestration.",
-      "Expert in building advanced RAG pipelines and complex automation workflows using LangChain and LangGraph to bridge the gap between cutting-edge AI research and real-world scalability.",
-      "A leading corporate trainer who has delivered 10,000+ hours of AI training to over 5,000 learners worldwide, enabling organizations to achieve 10x productivity improvements."
+      "I'm a passionate Full Stack Developer and AI Engineer with expertise in building modern web applications and intelligent systems. I thrive at the intersection of software engineering and artificial intelligence.",
+      "With hands-on experience across the entire development stack — from React and Node.js frontends to Python-based ML pipelines — I deliver solutions that are not just functional, but delightful to use.",
+      "When I'm not coding, I contribute to open source, explore emerging AI research, and mentor aspiring developers. I believe in writing code that speaks for itself."
     ],
     resumeUrl: "docs/resume.pdf",
-    avatarUrl: "assets/images/profile.jpeg"  // Leave empty to use generated initials avatar
+    avatarUrl: ""
   },
 
   // ─── Social Links ───────────────────────────────────────────
   social: {
-    github: "https://github.com/hereandnowai",
-    linkedin: "https://linkedin.com/in/ruthranraghavan",
-    twitter: "https://twitter.com/hereandnowai",
-    email: "ruthran@hereandnow.co.in"
+    github: "https://github.com/Avichatt",
+    linkedin: "https://linkedin.com/in/avichatt",
+    twitter: "https://twitter.com/avichatt",
+    email: "hello@avichatt.dev"
   },
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "LLMs / GenAI (GPT-5, Gemini)", level: 98, icon: "🤖" },
-    { name: "LangChain / LangGraph", level: 95, icon: "🦜" },
-    { name: "Python / AI-ML Stack", level: 95, icon: "🐍" },
-    { name: "Multi-Agent Systems", level: 92, icon: "🤝" },
-    { name: "PyTorch / TensorFlow", level: 90, icon: "🔥" },
-    { name: "RAG / Elasticsearch", level: 90, icon: "📚" },
-    { name: "MCP Servers / Automation", level: 88, icon: "⚙️" },
-    { name: "Docker / Kubernetes / Azure", level: 85, icon: "🐳" },
+    { name: "React / Next.js",             level: 95, icon: "⚛️" },
+    { name: "Python / FastAPI",             level: 93, icon: "🐍" },
+    { name: "Machine Learning / LLMs",      level: 90, icon: "🤖" },
+    { name: "Node.js / TypeScript",         level: 92, icon: "🟢" },
+    { name: "Cloud (AWS / GCP / Azure)",    level: 85, icon: "☁️" },
+    { name: "PostgreSQL / MongoDB",         level: 88, icon: "🗄️" },
+    { name: "Docker / Kubernetes",          level: 82, icon: "🐳" },
+    { name: "LangChain / LangGraph",        level: 87, icon: "🦜" }
   ],
 
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
-      title: "Probot AI Professor",
-      description: "A multimodal AI professor capable of natural conversation, adaptive curriculum delivery, and speech synthesis for personalized learning.",
-      tech: ["Generative AI", "Speech Synthesis", "LLMs", "Python"],
+      title: "AI Chat Assistant",
+      description: "A production-ready conversational AI powered by GPT-4 with RAG pipelines, memory management, and real-time streaming. Deployed on AWS with auto-scaling.",
+      tech: ["React", "FastAPI", "OpenAI", "LangChain", "Redis"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
@@ -59,49 +56,49 @@ const CONFIG = {
       category: "ai"
     },
     {
-      title: "Enterprise Multi-Agent Orchestrator",
-      description: "A complex multi-agent system built with LangGraph for autonomous enterprise operations, streamlining high-complexity workflows.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python"],
+      title: "E-Commerce Platform",
+      description: "Full-stack e-commerce solution with real-time inventory, AI-powered product recommendations, and seamless payment integrations via Stripe.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "Redis"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: true,
-      category: "automation"
+      category: "web"
     },
     {
-      title: "Advanced RAG Pipelines",
-      description: "Large-scale Retrieval-Augmented Generation systems integrated with Elasticsearch and Haystack, boosting search accuracy by over 40%.",
-      tech: ["Elasticsearch", "Haystack", "RAG", "LLMs"],
+      title: "Data Analytics Dashboard",
+      description: "Interactive real-time analytics dashboard with ML-powered anomaly detection, customizable charts, and automated reporting pipelines.",
+      tech: ["React", "Python", "TensorFlow", "Plotly", "Kafka"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: true,
-      category: "ai"
+      category: "data"
     },
     {
-      title: "MCP Automation Infrastructure",
-      description: "Developed robust Model Context Protocol (MCP) servers and clients for seamless communication between AI agents and external tools.",
-      tech: ["MCP", "TypeScript", "Node.js", "AI Agents"],
+      title: "DevOps CI/CD Pipeline",
+      description: "Automated CI/CD infrastructure using GitHub Actions, Docker, and Kubernetes. Reduced deployment time by 70% and improved release reliability.",
+      tech: ["Docker", "Kubernetes", "GitHub Actions", "Terraform", "AWS"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: false,
-      category: "automation"
+      category: "devops"
     },
     {
-      title: "Predictive Maintenance AI",
-      description: "Predictive maintenance agents for industrial deployments that increased equipment uptime by 20% using real-time sensor data.",
-      tech: ["Python", "TensorFlow", "IoT", "Scikit-Learn"],
+      title: "Mobile Task Manager",
+      description: "Cross-platform productivity app with AI-suggested scheduling, offline-first architecture, and smart notification system.",
+      tech: ["React Native", "Expo", "SQLite", "Redux", "Firebase"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: false,
-      category: "industrial"
+      category: "mobile"
     },
     {
-      title: "AI Language Assessment Engine",
-      description: "An NLP-powered language evaluation system using CNNs and RNNs, improving assessment accuracy by 30% over manual methods.",
-      tech: ["NLP", "CNNs", "RNNs", "Python"],
+      title: "NLP Document Processor",
+      description: "Intelligent document processing system using custom NLP models for entity extraction, classification, and semantic search over large document corpora.",
+      tech: ["Python", "HuggingFace", "Elasticsearch", "FastAPI", "Docker"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
@@ -113,58 +110,57 @@ const CONFIG = {
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
     {
-      role: "Chief AI Scientist",
-      company: "Here And Now AI",
-      period: "2018 — Present",
-      description: "Leading the development of enterprise-grade AI automation frameworks and multi-agent systems. Delivered 180+ AI agents across finance, healthcare, and manufacturing sectors.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python", "Azure"]
+      role: "Senior Full Stack & AI Engineer",
+      company: "Tech Innovations Ltd.",
+      period: "2022 — Present",
+      description: "Leading development of AI-powered SaaS products serving 50,000+ users. Architected microservices infrastructure reducing latency by 60% and spearheaded LLM integration across the product suite.",
+      tech: ["React", "FastAPI", "OpenAI", "AWS", "Kubernetes"]
     },
     {
-      role: "Data Scientist",
-      company: "HERE AND NOW – The Language Institute",
-      period: "2011 — 2023",
-      description: "Architected predictive modeling systems for personalized education. Built AI-powered language assessment engines reducing manual processing time by 40%.",
-      tech: ["Python", "TensorFlow", "Scikit-Learn", "SVM", "NLP"]
+      role: "Full Stack Developer",
+      company: "Digital Solutions Pvt. Ltd.",
+      period: "2020 — 2022",
+      description: "Built scalable web applications for fintech clients. Delivered 15+ production features, integrated third-party payment gateways, and mentored a team of 3 junior developers.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "GCP"]
     },
     {
-      role: "M.Sc. Statistics & Psychology",
-      company: "Madras University",
-      period: "2010 — 2012",
-      description: "Specialized in advanced research and modeling, bridging cognitive neuroscience with AI architecture for human-like interaction design.",
-      tech: ["Statistical Modeling", "Cognitive Science", "Predictive Analytics"]
+      role: "ML Engineer (Intern to Full Time)",
+      company: "DataSpark AI",
+      period: "2019 — 2020",
+      description: "Developed predictive ML models for e-commerce churn prediction achieving 89% accuracy. Automated data pipelines processing 2M+ records daily.",
+      tech: ["Python", "Scikit-Learn", "TensorFlow", "Airflow", "BigQuery"]
+    },
+    {
+      role: "B.Tech in Computer Science & Engineering",
+      company: "Indian Institute of Technology",
+      period: "2015 — 2019",
+      description: "Graduated with Distinction. Minor in Artificial Intelligence & Data Science. Final year project: Deep learning-based medical image analysis achieving 94% diagnostic accuracy.",
+      tech: ["Python", "Deep Learning", "Computer Vision", "Research"]
     }
   ],
 
   // ─── Theme Configuration ────────────────────────────────────
   theme: {
-    // Primary accent color (buttons, links, highlights)
     primaryColor: "#6366F1",
-    // Secondary accent for gradients
     secondaryColor: "#8B5CF6",
-    // Accent for special highlights
     accentColor: "#EC4899",
-    // Background colors
     bgPrimary: "#0B0D17",
     bgSecondary: "#111427",
     bgCard: "rgba(17, 20, 39, 0.7)",
-    // Text colors
     textPrimary: "#E2E8F0",
     textSecondary: "#94A3B8",
     textMuted: "#475569",
-    // Glass effect
     glassBg: "rgba(255, 255, 255, 0.03)",
     glassBorder: "rgba(255, 255, 255, 0.08)",
-    // Border radius
     borderRadius: "16px",
-    // Font
     fontFamily: "'Inter', sans-serif"
   },
 
   // ─── EmailJS (for contact form) ─────────────────────────────
   emailjs: {
-    publicKey: "PROD_EMAILJS_PUBLIC_KEY",
-    serviceId: "PROD_EMAILJS_SERVICE_ID",
-    templateId: "PROD_EMAILJS_TEMPLATE_ID"
+    publicKey: "YOUR_PUBLIC_KEY",
+    serviceId: "YOUR_SERVICE_ID",
+    templateId: "YOUR_TEMPLATE_ID"
   },
 
   // ─── Advanced Settings ──────────────────────────────────────
@@ -174,8 +170,7 @@ const CONFIG = {
     enableSmoothScroll: true,
     enablePreloader: true,
     enableSoundEffects: false,
-    particleCount: 50,
-    animationSpeed: 1,    // 0.5 = slow, 1 = normal, 2 = fast
+    particleCount: 60,
+    animationSpeed: 1
   }
 };
-
