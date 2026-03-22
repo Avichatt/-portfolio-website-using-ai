@@ -1,4 +1,4 @@
-# 🚀 Avi Sharma - Portfolio Website
+# 🚀 Avik Chatterjee - Portfolio Website
 
 This is a professional, high-performance portfolio website for Avi Sharma, built using the [Here And Now AI](https://github.com/hereandnowai) template.
 
