@@ -5,7 +5,6 @@ This is a professional, high-performance portfolio website for Avik Chatterjee, 
 
 ## 👥 Profile: Avik Chatterjee
 - **Analytics & Automation Lead** at **Amazon**.
-- **GATE 2026 (AIR 235)** in Computer Science & Information Technology.
 - 4x Alteryx Certified (Advanced).
 - Specialized in **AI Engineering**, **Infrastructure**, and **Operational Analytics**.
 
