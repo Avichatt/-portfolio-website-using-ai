@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ╔══════════════════════════════════════════════════════════════╗
  * ║              PORTFOLIO CONFIGURATION FILE                    ║
  * ║  Edit this file to personalize your entire portfolio.        ║
@@ -8,16 +8,16 @@
 const CONFIG = {
 
   // ─── Personal Info ───────────────────────────────────────────
-  name: "Avi Sharma",
-  title: "Full Stack Developer & AI Engineer",
-  tagline: "Building intelligent, scalable web applications that merge cutting-edge AI with elegant user experiences.",
-  roles: ["Full Stack Developer", "AI/ML Engineer", "Data Scientist", "Open Source Contributor"],
+  name: "Avik Chatterjee",
+  title: "Analytics Professional & AI Engineer",
+  tagline: "Leveraging 5+ years of analytics expertise to build intelligent automation and data-driven systems.",
+  roles: ["Analytics Professional", "AI/ML Engineer", "Project Coordinator", "Automation Expert"],
 
   about: {
     description: [
-      "I'm a passionate Full Stack Developer and AI Engineer with expertise in building modern web applications and intelligent systems. I thrive at the intersection of software engineering and artificial intelligence.",
-      "With hands-on experience across the entire development stack — from React and Node.js frontends to Python-based ML pipelines — I deliver solutions that are not just functional, but delightful to use.",
-      "When I'm not coding, I contribute to open source, explore emerging AI research, and mentor aspiring developers. I believe in writing code that speaks for itself."
+      "I am an analytics-focused professional currently at Amazon, with over 5 years of experience in supporting global operations and driving data-driven initiatives. My expertise lies at the intersection of process optimization and emerging technologies.",
+      "Beyond my core role in analytics and project coordination, I am deeply passionate about AI Engineering. I specialize in building intelligent workflow automation (n8n), AI-powered reverse-engineering tools, and robust data validation systems.",
+      "I thrive on solving complex operational challenges by bridging the gap between business requirements and technical implementation. My goal is to leverage data and AI to create measurable organizational impact."
     ],
     resumeUrl: "docs/resume.pdf",
     avatarUrl: ""
@@ -26,116 +26,82 @@ const CONFIG = {
   // ─── Social Links ───────────────────────────────────────────
   social: {
     github: "https://github.com/Avichatt",
-    linkedin: "https://linkedin.com/in/avichatt",
+    linkedin: "https://www.linkedin.com/in/avik-chatterjee-00a364145/",
     twitter: "https://twitter.com/avichatt",
-    email: "hello@avichatt.dev"
+    email: "avik.chatterjee@example.com" // Placeholder email based on profile
   },
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "React / Next.js",             level: 95, icon: "⚛️" },
-    { name: "Python / FastAPI",             level: 93, icon: "🐍" },
-    { name: "Machine Learning / LLMs",      level: 90, icon: "🤖" },
-    { name: "Node.js / TypeScript",         level: 92, icon: "🟢" },
-    { name: "Cloud (AWS / GCP / Azure)",    level: 85, icon: "☁️" },
-    { name: "PostgreSQL / MongoDB",         level: 88, icon: "🗄️" },
-    { name: "Docker / Kubernetes",          level: 82, icon: "🐳" },
-    { name: "LangChain / LangGraph",        level: 87, icon: "🦜" }
+    { name: "Data Analytics (SQL/Python)", level: 95, icon: "📊" },
+    { name: "AI Engineering & LLMs",       level: 88, icon: "🤖" },
+    { name: "Workflow Automation (n8n)",   level: 92, icon: "⚙️" },
+    { name: "Project Management",          level: 90, icon: "📅" },
+    { name: "Power BI / Tableau",         level: 85, icon: "📈" },
+    { name: "JavaScript / Web Dev",       level: 85, icon: "🌐" },
+    { name: "Stakeholder Relations",      level: 93, icon: "🤝" },
+    { name: "Process Optimization",       level: 90, icon: "🚀" }
   ],
 
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
-      title: "AI Chat Assistant",
-      description: "A production-ready conversational AI powered by GPT-4 with RAG pipelines, memory management, and real-time streaming. Deployed on AWS with auto-scaling.",
-      tech: ["React", "FastAPI", "OpenAI", "LangChain", "Redis"],
+      title: "AdmitGuard",
+      description: "An admission data validation and compliance system designed to ensure data integrity and regulatory adherence across educational workflows.",
+      tech: ["JavaScript", "Data Validation", "Compliance"],
       liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: true,
-      category: "ai"
-    },
-    {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with real-time inventory, AI-powered product recommendations, and seamless payment integrations via Stripe.",
-      tech: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "Redis"],
-      liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Avichatt/admitguard--Avik_Chatterjee-",
       image: "",
       featured: true,
       category: "web"
     },
     {
-      title: "Data Analytics Dashboard",
-      description: "Interactive real-time analytics dashboard with ML-powered anomaly detection, customizable charts, and automated reporting pipelines.",
-      tech: ["React", "Python", "TensorFlow", "Plotly", "Kafka"],
+      title: "Product Teardown Engine",
+      description: "An AI-powered reverse-engineering tool that analyzes products to extract technical specifications and architectural insights automatically.",
+      tech: ["AI", "Reverse Engineering", "NLP", "Python"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Avichatt/week-01-day-05-teardown-engine",
       image: "",
       featured: true,
-      category: "data"
-    },
-    {
-      title: "DevOps CI/CD Pipeline",
-      description: "Automated CI/CD infrastructure using GitHub Actions, Docker, and Kubernetes. Reduced deployment time by 70% and improved release reliability.",
-      tech: ["Docker", "Kubernetes", "GitHub Actions", "Terraform", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "devops"
-    },
-    {
-      title: "Mobile Task Manager",
-      description: "Cross-platform productivity app with AI-suggested scheduling, offline-first architecture, and smart notification system.",
-      tech: ["React Native", "Expo", "SQLite", "Redux", "Firebase"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "mobile"
-    },
-    {
-      title: "NLP Document Processor",
-      description: "Intelligent document processing system using custom NLP models for entity extraction, classification, and semantic search over large document corpora.",
-      tech: ["Python", "HuggingFace", "Elasticsearch", "FastAPI", "Docker"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
       category: "ai"
+    },
+    {
+      title: "AI-Powered n8n Workflows",
+      description: "Custom fair-code automation workflows integrating native AI capabilities for seamless multi-agent orchestration and tool communication.",
+      tech: ["n8n", "AI Agents", "Automation", "TypeScript"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/Avichatt/n8n",
+      image: "",
+      featured: true,
+      category: "automation"
+    },
+    {
+      title: "Analytics Dashboard",
+      description: "Comprehensive data visualization suite for monitoring global operations and identifying operational bottlenecks using real-time data.",
+      tech: ["Power BI", "SQL", "Excel", "Data Modeling"],
+      liveUrl: "#",
+      githubUrl: "#",
+      image: "",
+      featured: false,
+      category: "data"
     }
   ],
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
     {
-      role: "Senior Full Stack & AI Engineer",
-      company: "Tech Innovations Ltd.",
-      period: "2022 — Present",
-      description: "Leading development of AI-powered SaaS products serving 50,000+ users. Architected microservices infrastructure reducing latency by 60% and spearheaded LLM integration across the product suite.",
-      tech: ["React", "FastAPI", "OpenAI", "AWS", "Kubernetes"]
+      role: "Analytics & Project Focused Professional",
+      company: "Amazon",
+      period: "2019 — Present",
+      description: "Supporting global operations through data-driven initiatives and project coordination. Specialized in analytics, stakeholder management, and process efficiency.",
+      tech: ["SQL", "Excel", "Project Management", "Stakeholder Relations"]
     },
     {
-      role: "Full Stack Developer",
-      company: "Digital Solutions Pvt. Ltd.",
-      period: "2020 — 2022",
-      description: "Built scalable web applications for fintech clients. Delivered 15+ production features, integrated third-party payment gateways, and mentored a team of 3 junior developers.",
-      tech: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "GCP"]
-    },
-    {
-      role: "ML Engineer (Intern to Full Time)",
-      company: "DataSpark AI",
-      period: "2019 — 2020",
-      description: "Developed predictive ML models for e-commerce churn prediction achieving 89% accuracy. Automated data pipelines processing 2M+ records daily.",
-      tech: ["Python", "Scikit-Learn", "TensorFlow", "Airflow", "BigQuery"]
-    },
-    {
-      role: "B.Tech in Computer Science & Engineering",
-      company: "Indian Institute of Technology",
-      period: "2015 — 2019",
-      description: "Graduated with Distinction. Minor in Artificial Intelligence & Data Science. Final year project: Deep learning-based medical image analysis achieving 94% diagnostic accuracy.",
-      tech: ["Python", "Deep Learning", "Computer Vision", "Research"]
+      role: "B.Tech in Information Technology",
+      company: "Neotia Institute of Technology, Management and Science",
+      period: "2014 — 2018",
+      description: "Graduated with a focus on Information Technology and systems management. Involved in various technical projects and research initiatives.",
+      tech: ["Information Technology", "Computer Science", "Systems"]
     }
   ],
 

@@ -1,6 +1,11 @@
 # 🚀 Avik Chatterjee - Portfolio Website
 
-This is a professional, high-performance portfolio website for Avi Sharma, built using the [Here And Now AI](https://github.com/hereandnowai) template.
+This is a professional, high-performance portfolio website for Avik Chatterjee, built using the [Here And Now AI](https://github.com/hereandnowai) template.
+
+## 👥 Profile: Avik Chatterjee
+- **Analytics Professional & AI Engineer** at **Amazon**.
+- 5+ years of experience in data-driven excellence and project coordination.
+- Expert in SQL, Python, JavaScript, and Workflow Automation (n8n).
 
 ## 🛠 Tech Stack
 - **Pure HTML/CSS/JS**: Zero dependencies or complex setups.
